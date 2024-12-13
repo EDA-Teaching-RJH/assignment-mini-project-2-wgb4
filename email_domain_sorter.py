@@ -38,19 +38,17 @@ def populate_email_list(file_name):
         
         return email_list
 
-def populate_domains(emails):
+def create_domains(emails):
     domain_list = []
 
     for email in emails:
         # Split the email between the @ to get the username and domain seperately
         email_split = email.split('@')
         # print(email_split[-1])
-        
-        # For each domain in the list
-        for domain in domain_list:
-            # Add domain to the list of domains if it is new
-            if email_split[-1] != domain.domain_name:
-                domain_list.append(Domain(email_split[-1]))
+
+        # Add domain to the list of domains if it is new
+        if email_split[-1] not in domain.domain_name:
+            domain_list.append(Domain(email_split[-1]))
             
             # If the email's domain is the same as the current domain iteration
             if email_split[-1] == domain.domain_name:
