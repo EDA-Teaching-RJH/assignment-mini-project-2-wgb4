@@ -28,8 +28,8 @@ def main():
 def fill_special_domains(file_name):
     # Read from a json file that contains domains to match to the emails
     with open(file_name, 'r') as json_file:
-
         return json.load(json_file)
+
     
 
 def create_email_list(file_name):
@@ -52,7 +52,7 @@ def create_email_list(file_name):
         return email_list
     
 
-def create_domains(emails, special_domains):
+def create_domains(emails, special_domains={}):
     domain_list = []
     
     for email in emails:

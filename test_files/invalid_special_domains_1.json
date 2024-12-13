@@ -1,0 +1,6 @@
+{
+    education : ["edu", "."],
+    "government" : ["@gov"],
+    "organisation" : ["com", "org"],
+    "test" : "hello@haha.lol"
+}
