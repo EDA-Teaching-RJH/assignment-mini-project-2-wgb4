@@ -1,0 +1,60 @@
+[
+    {
+        "domain_name": "example.com",
+        "category": "organisation",
+        "usernames": [
+            "valid"
+        ]
+    },
+    {
+        "domain_name": "domain.com",
+        "category": "organisation",
+        "usernames": [
+            "user"
+        ]
+    },
+    {
+        "domain_name": "sub.domain.org",
+        "category": "organisation",
+        "usernames": [
+            "name"
+        ]
+    },
+    {
+        "domain_name": "website.net",
+        "usernames": [
+            "simple"
+        ]
+    },
+    {
+        "domain_name": "123.com",
+        "category": "organisation",
+        "usernames": [
+            "admin"
+        ]
+    },
+    {
+        "domain_name": "email.com",
+        "category": "organisation",
+        "usernames": [
+            "normal"
+        ]
+    },
+    {
+        "domain_name": "kent.ac.uk",
+        "category": "education",
+        "usernames": [
+            "wgb4",
+            "meme"
+        ]
+    },
+    {
+        "domain_name": "gmail.com",
+        "category": "organisation",
+        "usernames": [
+            "willbirch",
+            "joemama",
+            "teset"
+        ]
+    }
+]
